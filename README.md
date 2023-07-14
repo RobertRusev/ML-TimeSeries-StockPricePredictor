@@ -1,14 +1,17 @@
-# Stock Price Predictor
+# ML-TimeSeries-StockPricePredictor
 
 ## Overview
-The Stock Price Predictor is a project aimed at predicting future stock prices for Apple Inc. based on historical data, macroeconomic indicators, and advanced machine learning models.
+Stock Price Predictor: Leveraging historical data, macroeconomic indicators, LSTM and Prophet models for enhanced stock price forecasting. Analyze trends, patterns, and economic factors to gain insights and make data-driven predictions. Leverage advanced modeling techniques for reliable forecasts.
 
 ## Features
-- Historical Data Analysis: Gain insights from historical stock price data to identify trends, patterns, and correlations specific to Apple Inc.
-- Macroeconomic Indicators: Incorporate macroeconomic indicators to enhance the predictive capabilities of the models for Apple Inc.
-- LSTM Model: Utilize the LSTM model to capture long-term dependencies in Apple Inc.'s stock price data and make accurate predictions.
-- Prophet Model: Leverage the Prophet model for time series forecasting, taking into account seasonality and trends specific to Apple Inc.
-- Evaluation Metrics: Evaluate the performance of the models using metrics such as mean squared error (MSE) and mean absolute error (MAE) for Apple Inc.
+- Historical Data Analysis: Gain insights from historical stock price data to identify trends, patterns, and correlations.
+- Macroeconomic Indicators: Incorporate macroeconomic indicators to enhance the predictive capabilities of the models.
+- LSTM Model: Utilize the LSTM model to capture long-term dependencies in stock price data and make accurate predictions.
+- Prophet Model: Leverage the Prophet model for time series forecasting, taking into account seasonality and trends.
+- Evaluation Metrics: Evaluate the performance of the models using metrics such as mean squared error (MSE) and mean absolute error (MAE).
+
+## Dataset
+The project uses historical stock price data of Apple Inc. (AAPL) as an example, but it can be easily adapted to any other stock. The dataset includes daily stock prices, volume, and other relevant attributes. You can replace the dataset with your desired stock data to perform analysis and predictions.
 
 ## Getting Started
 1. Clone the repository:
@@ -48,4 +51,4 @@ We are grateful for their contributions and the resources they have provided, wh
 - Robert Rusev - [robertrusev](https://github.com/RobertRusev)
 
 ## Contact
-For any inquiries or suggestions, please contact robert.rusev@yahoo.com .
+For any inquiries or suggestions, please contact me at robert.rusev@yahoo.com .
